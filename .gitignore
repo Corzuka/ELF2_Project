@@ -1,0 +1,94 @@
+# ======================== #
+# 全局通用忽略规则
+# ======================== #
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+~$*
+
+# ======================== #
+# STM32Car (Keil C 项目)
+# ======================== #
+# 编译生成文件
+STM32Car/**/*.o
+STM32Car/**/*.d
+STM32Car/**/*.crf
+STM32Car/**/*.axf
+STM32Car/**/*.hex
+STM32Car/**/*.map
+STM32Car/**/*.lst
+STM32Car/**/*.build_log.htm
+
+# 编译目录
+STM32Car/**/Objects/
+STM32Car/**/Listings/
+STM32Car/**/DebugConfig/
+
+# IDE 文件
+STM32Car/.vs/
+STM32Car/Project.uvguix.*
+STM32Car/Project.uvoptx
+
+# ======================== #
+# MyModel (Python 项目)
+# ======================== #
+# Python 缓存文件
+MyModel/__pycache__/
+MyModel/**/__pycache__/
+MyModel/*.pyc
+MyModel/*.pyo
+
+# 虚拟环境
+MyModel/.venv/
+MyModel/venv/
+MyModel/env/
+
+# 测试和构建文件
+MyModel/.pytest_cache/
+MyModel/.ipynb_checkpoints/
+MyModel/dist/
+MyModel/build/
+MyModel/*.egg-info/
+
+# IDE 文件
+MyModel/.idea/
+MyModel/*.iml
+
+# ======================== #
+# ELF2_Board (开发板部署)
+# ======================== #
+# 编译文件
+ELF2_Board/**/*.o
+ELF2_Board/**/*.d
+ELF2_Board/**/*.axf
+
+# Python 缓存
+ELF2_Board/**/__pycache__/
+ELF2_Board/**/*.pyc
+ELF2_Board/**/*.pyo
+
+# 日志文件
+ELF2_Board/**/*.log
+
+# ======================== #
+# Connected_Board (电路板设计)
+# ======================== #
+# 设计软件临时文件
+Connected_Board/**/*.bak
+Connected_Board/**/*.tmp
+Connected_Board/**/*.PrjPcbStructure  # Altium
+Connected_Board/**/*.kicad_prl       # KiCad
+Connected_Board/**/backups/
+Connected_Board/**/autosave/
+
+# ======================== #
+# IDE 配置文件（所有项目）
+# ======================== #
+**/.vscode/
+**/.vs/
+**/.idea/
