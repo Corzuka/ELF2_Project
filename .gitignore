@@ -31,8 +31,8 @@ STM32Car/**/DebugConfig/
 
 # IDE 文件
 STM32Car/.vs/
-STM32Car/Project.uvguix.*
-STM32Car/Project.uvoptx
+STM32Car/stm32project.uvguix.*
+STM32Car/stm32project.uvoptx
 
 # ======================== #
 # MyModel (Python 项目)
