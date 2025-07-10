@@ -92,3 +92,25 @@ Connected_Board/**/autosave/
 **/.vscode/
 **/.vs/
 **/.idea/
+
+# ======================== #
+# QT_App (QT 上位机)       #
+# ======================== #
+QT_App/build*/
+QT_App/*.pro.user
+QT_App/*.pro.user.*
+QT_App/Makefile
+QT_App/Makefile.*
+QT_App/*.o
+QT_App/*.moc
+QT_App/moc_*.cpp
+QT_App/ui_*.h
+QT_App/qrc_*.cpp
+QT_App/*.qmlc
+QT_App/*.jsc
+QT_App/.qmake.stash
+QT_App/CMakeCache.txt
+QT_App/CMakeFiles/
+QT_App/cmake_install.cmake
+QT_App/*.autosave
+*.autosave
